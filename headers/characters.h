@@ -9,8 +9,6 @@ struct hero {
     short x;
     short y;
     short alive;
-    short hp;
-    short mp;
     std::string name;
 };
 

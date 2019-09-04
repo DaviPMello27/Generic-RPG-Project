@@ -2,7 +2,7 @@
 #include <windows.h>
 #include <conio.h>
 #include <string>
-#include "headers/characters.h"
+#include "characters.h"
 
 
 void drawMenu(hero player, std::string name, short textX = 0, short textY = 0, std::string text = ""){
@@ -29,15 +29,6 @@ void drawMenu(hero player, std::string name, short textX = 0, short textY = 0, s
     }
     SetConsoleCursorPosition(hando, {static_cast<short>(15 - name.length()/2), 31});
     std::cout << name;
-    if(name == player.name){
-        SetConsoleCursorPosition(hando, {2, 33});
-        SetConsoleTextAttribute(hando, FOREGROUND_INTENSITY | FOREGROUND_RED);
-        std::cout << "HP: " << player.hp;
-        SetConsoleTextAttribute(hando, FOREGROUND_INTENSITY | FOREGROUND_BLUE);
-        SetConsoleCursorPosition(hando, {2, 34});
-        std::cout << "MP: " << player.mp;
-        SetConsoleTextAttribute(hando, DEFAULT_PALETTE);
-    }
     SetConsoleCursorPosition(hando, {textX, textY});
     std::cout << text;
     SetConsoleCursorPosition(hando, {0, 0});

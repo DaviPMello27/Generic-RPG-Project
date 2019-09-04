@@ -35,7 +35,7 @@ int main(){
             }
             transition(player, level, changemap);
             SetConsoleCursorPosition(GetStdHandle(STD_OUTPUT_HANDLE), {35, 0});
-            std::cout << "x: " << player.x << ", y: " << player.y;
+            std::cout << "x: " << player.x << ", y: " << player.y << "\t\t";
         }
     }
 }

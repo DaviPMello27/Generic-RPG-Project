@@ -18,5 +18,6 @@ HEADERS += \
     headers/controls.h \
     headers/interactions.h \
     headers/mapfunctions.h \
-    headers/mappack.h \
+    headers/maps.h \
+    headers/mapscollision.h \
     headers/menufunctions.h

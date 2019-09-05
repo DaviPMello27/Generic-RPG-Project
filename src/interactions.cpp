@@ -1,5 +1,5 @@
 #include "characters.h"
-#include "mappack.h"
+#include "mapscollision.h"
 #include "menufunctions.h"
 
 

@@ -1,5 +1,5 @@
 #include <conio.h>
-#include "mappack.h"
+#include "mapscollision.h"
 #include "mapfunctions.h"
 #include "characters.h"
 #include "menufunctions.h"

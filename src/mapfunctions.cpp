@@ -1,7 +1,8 @@
 #include <iostream>
 #include <windows.h>
 #include "characters.h"
-#include "mappack.h"
+#include "maps.h"
+#include "mapscollision.h"
 
 void convertMatToSprite(hero play, int y, int x, int lvl){
     if(lvl == 0){
